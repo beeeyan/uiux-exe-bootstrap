@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>UI/UXの基本</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-primary">
+    <span class="navbar-brand mb-0"></span>
+  </nav>
+  <div class="container">
+    <h2>UI/UXの基本～センスないなりのデザインの話 by Bootstrap～</h2>
+    <h4>入力フォーム</h4>
+    <form action="https://cccabinet.jpn.org/bootstrap4/components/forms">
+      <div class="form-group row">
+        <label class="col-lg-3 col-md-12 col-form-label border border-info">テキスト</label>
+        <div class="col-lg-9 col-md-12">
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" formaction="https://cccabinet.jpn.org/bootstrap4/utilities/colors">削除</button>
+      <button type="submit" class="btn btn-primary">送信</button>
+    </form>
+
+    <h4>テーブル</h4>
+    <form action="https://cccabinet.jpn.org/bootstrap4/content/tables">
+      <table class="table table-bordered">
+        <thead class="table-info">
+          <tr>
+            <th>#</th>
+            <th>作者</th>
+            <th>書名</th>
+            <th>発刊日</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input type="submit" class="btn btn-primary" value="この本をおすすめとして推薦します">
+            </td>
+            <td>伊坂幸太郎</td>
+            <td>ラッシュライフ</td>
+            <td>2002年</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" class="btn btn-primary" value="この本をおすすめとして推薦します">
+            </td>
+            <td>米澤穂信</td>
+            <td>氷菓</td>
+            <td>2001年</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" class="btn btn-primary" value="この本をおすすめとして推薦します">
+            </td>
+            <td>ハリイ・ケメルマン</td>
+            <td>九マイルは遠すぎる</td>
+            <td>1947年</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" class="btn btn-primary" value="この本をおすすめとして推薦します">
+            </td>
+            <td>アントニイ・バークリー</td>
+            <td>毒入りチョコレート事件</td>
+            <td>1929年</td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <div class="float-right">
+      <form action="https://cccabinet.jpn.org/bootstrap4/">
+        <button type="submit" class="btn btn-primary">ヒント</button>
+      </form>
+      <div>
+        <small class="text-muted">Bootstrap4移行ガイドへのリンクです。</small>
+      </div>
+    </div>
+    <form action="https://cccabinet.jpn.org/bootstrap4/components/forms">
+      <button type="submit" class="btn btn-primary" formaction="https://cccabinet.jpn.org/bootstrap4/utilities/colors">戻る</button>
+      <button type="submit" class="btn btn-primary">次へ</button>
+    </form>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

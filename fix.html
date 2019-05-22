@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>UI/UXの基本</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-primary">
+    <span class="navbar-brand mb-0"></span>
+  </nav>
+  <div class="container">
+    <h2 class="mt-2"><span class="d-inline-block mr-1">UI/UXの基本</span><small class="text-muted d-inline-block">～センスないなりのデザインの話 by Bootstrap～</small></h2>
+
+    <h4 class="mt-3">入力フォーム</h4>
+    <form action="https://cccabinet.jpn.org/bootstrap4/components/forms">
+      <div class="form-group row">
+        <label class="col-lg-3 col-md-12 col-form-label border border-info">テキスト</label>
+        <div class="col-lg-9 col-md-12">
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-danger mr-1" formaction="https://cccabinet.jpn.org/bootstrap4/utilities/colors">削除</button>
+        <button type="submit" class="btn btn-primary ml-1">送信</button>
+      </div>
+    </form>
+
+
+    <h4 class="mt-3">テーブル</h4>
+    <form action="https://cccabinet.jpn.org/bootstrap4/content/tables">
+      <div class="table-responsive-sm">
+        <table class="table table-bordered text-nowrap">
+          <thead class="table-info">
+            <tr>
+              <th>#</th>
+              <th>作者</th>
+              <th>書名</th>
+              <th>発刊日</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <button type="submit" class="btn btn-primary">この本をおすすめとして<br>推薦します</button>
+              </td>
+              <td class="align-middle">伊坂幸太郎</td>
+              <td class="align-middle">ラッシュライフ</td>
+              <td class="align-middle">2002年</td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" class="btn btn-primary">
+                  <div>この本をおすすめとして</div>
+                  <div>推薦します</div>
+                </button>
+              </td>
+              <td class="align-middle">米澤穂信</td>
+              <td class="align-middle">氷菓</td>
+              <td class="align-middle">2001年</td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" class="btn btn-primary">
+                  <div>この本をおすすめとして</div>
+                  <div>推薦します</div>
+                </button>
+              </td>
+              <td class="align-middle">ハリイ・ケメルマン</td>
+              <td class="align-middle">九マイルは遠すぎる</td>
+              <td class="align-middle">1947年</td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" class="btn btn-primary"><span class="d-block">この本をおすすめとして</span><span class="d-block">推薦します</span></button>
+              </td>
+              <td class="align-middle">アントニイ・バークリー</td>
+              <td class="align-middle">毒入りチョコレート事件</td>
+              <td class="align-middle">1929年</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+
+
+    <div class="float-right d-block">
+      <form action="https://cccabinet.jpn.org/bootstrap4/">
+        <button type="submit" class="btn btn-primary">ヒント</button><br>
+        <small class="text-muted">Bootstrap4移行ガイドへのリンクです。</small>
+      </form>
+    </div>
+    <div class="clearfix"></div>
+    <div class="d-flex justify-content-center">
+      <form action="https://cccabinet.jpn.org/bootstrap4/components/forms">
+        <button type="submit" class="btn btn-outline-primary mr-1" formaction="https://cccabinet.jpn.org/bootstrap4/utilities/colors">戻る</button>
+        <button type="submit" class="btn btn-primary ml-1">次へ</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

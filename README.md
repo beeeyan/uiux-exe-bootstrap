@@ -2,7 +2,7 @@
 
 ## ファイルの説明
 `index.html`・・・UI/UXの考慮が不十分なHTMLファイル
-`fix.html`・・・`index.html`を修正したファイル。答えあわせ用の一例
+`fix.html`・・・`index.html`を修正したファイル。答えあわせ用の一例  
 
 ## 演習課題
 `index.html`ファイルのUI/UXの問題点を見つけ、修正してください。
